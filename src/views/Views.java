@@ -17,12 +17,22 @@ public class Views {
         System.out.print("\t\t* Digite una opción: ");
     }
 
-    public void showAmount() {
+    public void showEnterOptionAgain() {
+        System.out.print("\t\t* Digite una opción valida: ");
+    }
+
+    public void askAmount() {
         System.out.print("\t\t* Cantidad: ");
     }
 
-    public void showSweet() {
+    public void askSweet() {
         System.out.print("\t\t* Desea añadir dulce $0.50 cents adicionales");
+        System.out.print("\n\t\t* 1. SI \t\t* 2. NO");
+        showEnterOption();
+    }
+
+    public void askJubilado() {
+        System.out.print("\t\t* Esta usted jubilado?");
         System.out.print("\n\t\t* 1. SI \t\t* 2. NO");
         showEnterOption();
     }
@@ -56,6 +66,12 @@ public class Views {
         System.out.println("\t\t**************************************");
     }
 
+    public void showInvoiceHeader() {
+        System.out.println("\t\t**************************************");
+        System.out.println("\t\t*            FACTURA COMPRA          *");
+        System.out.println("\t\t**************************************");
+    }
+
     public void waitMenu() {
         System.out.print("\n\n\t\t* Presiona cualquier boton para continuar");
     }
@@ -76,6 +92,18 @@ public class Views {
         System.out.println("\t\t*  8. AGUA.................. $ 1.50  *");
         System.out.println("\t\t*                                    *");
         System.out.println("\t\t*  9. CHOCOLATE............. $ 1.75  *");
+        System.out.println("\t\t*                                    *");
+        System.out.println("\t\t*  10. COMBO 1.............. $ 4.50  *");
+        System.out.println("\t\t*         -POPCORN MEDIANO           *");
+        System.out.println("\t\t*         -REFRESCO GRANDE           *");
+        System.out.println("\t\t*                                    *");
+        System.out.println("\t\t*  11. COMBO 2.............. $ 5.00  *");
+        System.out.println("\t\t*         -HOTDOG                    *");
+        System.out.println("\t\t*         -REFRESCO GRANDE           *");
+        System.out.println("\t\t*                                    *");
+        System.out.println("\t\t*  12. COMBO 3.............. $ 6.80  *");
+        System.out.println("\t\t*         -POPCORN GRANDE            *");
+        System.out.println("\t\t*         -2 REFRESCOS MEDIANOS      *");
         System.out.println("\t\t*                                    *");
         System.out.println("\t\t*  PRESIONA 0 (ZERO) PARA FINALIZAR  *");
         System.out.println("\t\t*              LA COMPRA             *");

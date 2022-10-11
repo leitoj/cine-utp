@@ -29,6 +29,10 @@ public abstract class Product implements Cloneable {
         return price;
     }
 
+    public double getTotal() {
+        return amount * price;
+    }
+
     public void setPrice(double price) {
         if (price < 0) {
             System.out.println("Registre un precio mayor a cero");

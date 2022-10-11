@@ -90,4 +90,15 @@ public class ShoppingCart {
 
     }
 
+    public ArrayList<Product> getList() {
+        return this.list;
+    }
+
+    public double getTotal() {
+        return this.total;
+    }
+
+    public boolean getJubilado() {
+        return this.jubilado;
+    }
 }

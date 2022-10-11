@@ -76,6 +76,12 @@ public class Views {
         System.out.print("\n\n\t\t* Presiona cualquier boton para continuar");
     }
 
+    public void showDataHeader() {
+        System.out.println("\t\t**************************************");
+        System.out.println("\t\t*            DATOS VENTAS            *");
+        System.out.println("\t\t**************************************");
+    }
+
     public void showSaleMenu() {
         System.out.println("\t\t**************************************");
         System.out.println("\t\t*            MENU DE CINE            *");

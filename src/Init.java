@@ -66,20 +66,21 @@ public class Init {
 
         // SHOW INVOICE AND THEN SAVE IT INTO THE DATABASE
         cart.show();
+
         database.insertRecord(cart);
+        view.waitMenu();
+
         Helper.pause();
     }
 
     public void invoicesController() {
         // System.out.print("Opcion 2 ver compras");
-        // view.clearConsole();
-        // sales.showInvoices();
-        // view.waitMenu();
-        // try {
-        // System.in.read();
-        // } catch (Exception e) {
-        // e.printStackTrace();
-        // }
+        database.showRecords();
+        view.showDataHeader();
+        database.showData();
+
+        view.waitMenu();
+        Helper.pause();
     }
 
 }

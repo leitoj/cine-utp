@@ -2,7 +2,7 @@
 
 Mini proyecto desarrollado para la clase de Desarrollo de Software 2
 
-## Estrucutra de las carpetas
+## Estructura de las carpetas
 
 El espacio de trabajo contiene dos folders por defecto:
 

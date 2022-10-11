@@ -1,13 +1,13 @@
-## Getting Started
+## Cine UTP
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Mini proyecto desarrollado para la clase de Desarrollo de Software 2
 
-## Folder Structure
+## Estrucutra de las carpetas
 
-The workspace contains two folders by default, where:
+El espacio de trabajo contiene dos folders por defecto:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- `src`: Contiene los archivos pincipales
+- `lib`: Carpeta de dependencias
 
 Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
